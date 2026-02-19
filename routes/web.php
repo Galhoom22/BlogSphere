@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(ThemeController::class)->name('theme.')->group(function(){
     Route::get('/', 'index')->name('index');
-    Route::get('/category', 'category')->name('category');
+    Route::get('/category/{category?}', 'category')->name('category');
     Route::get('/contact', 'contact')->name('contact');
 });
 

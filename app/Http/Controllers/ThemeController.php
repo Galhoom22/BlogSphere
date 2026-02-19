@@ -10,7 +10,7 @@ class ThemeController extends Controller
         return view('theme.index');
     }
 
-    public function category(){
+    public function category($category = null){
         return view('theme.category');
     }
 
