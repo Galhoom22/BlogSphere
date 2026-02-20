@@ -9,11 +9,11 @@
                         onblur="this.placeholder = 'Enter email'">
                     </div>
                   </div>
-                  <button class="bbtns d-block mt-20 w-100">Subcribe</button>
+                  <button class="bbtns d-block mt-20 w-100">Subscribe</button>
                 </div>
 
                 <div class="single-sidebar-widget post-category-widget">
-                  <h4 class="single-sidebar-widget__title">Catgory</h4>
+                  <h4 class="single-sidebar-widget__title">Category</h4>
                   <ul class="cat-list mt-20">
                     <li>
                       <a href="#" class="d-flex justify-content-between">
@@ -60,7 +60,7 @@
                         </ul>
                       </div>
                       <div class="details mt-20">
-                        <a href="blog-single.html">
+                        <a href="#">
                           <h6>Accused of assaulting flight attendant miktake alaways</h6>
                         </a>
                       </div>

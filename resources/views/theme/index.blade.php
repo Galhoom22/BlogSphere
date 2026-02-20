@@ -3,7 +3,19 @@
 
 @section('content')
   <main class="site-main">
-    @include('theme.partials.hero')
+    <!--================Hero Banner start =================-->  
+    <section class="mb-30px">
+      <div class="container">
+        <div class="hero-banner">
+          <div class="hero-banner__content">
+            <h3>Tours & Travels</h3>
+            <h1>Amazing Places on earth</h1>
+            <h4>December 12, 2018</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================Hero Banner end =================-->  
 <!--================ Blog slider start =================-->  
     <section>
       <div class="container">
@@ -88,7 +100,7 @@
                 </ul>
               </div>
               <div class="details mt-20">
-                <a href="blog-single.html">
+                <a href="#">
                   <h3>Woman claims husband wants to name baby girl
                     after his ex-lover sparking.</h3>
                 </a>
@@ -107,7 +119,7 @@
                 </ul>
               </div>
               <div class="details mt-20">
-                <a href="blog-single.html">
+                <a href="#">
                   <h3>Woman claims husband wants to name baby girl
                     after his ex-lover sparking.</h3>
                 </a>
@@ -126,7 +138,7 @@
                 </ul>
               </div>
               <div class="details mt-20">
-                <a href="blog-single.html">
+                <a href="#">
                   <h3>Tourist deaths in Costa Rica jeopardize safe dest
                     ination reputation all time. </h3>
                 </a>
@@ -145,7 +157,7 @@
                 </ul>
               </div>
               <div class="details mt-20">
-                <a href="blog-single.html">
+                <a href="#">
                   <h3>Tourist deaths in Costa Rica jeopardize safe dest
                     ination reputation all time.  </h3>
                 </a>

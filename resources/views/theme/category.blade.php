@@ -1,25 +1,8 @@
 @extends('theme.master')
 @section('title', 'Category')
 @section('content')
-      <!--================ Hero sm Banner start =================-->        
-  <section class="mb-30px">
-    <div class="container">
-      <div class="hero-banner hero-banner--sm">
-        <div class="hero-banner__content">
-          <h1>Category Page</h1>
-          <nav aria-label="breadcrumb" class="banner-breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Category Page</li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Hero sm Banner end =================-->      
-  
-
+  @include('theme.partials.hero', ['title' => 'Category'])
+        
   <!--================ Start Blog Post Area =================-->
   <section class="blog-post-area section-margin">
     <div class="container">
@@ -36,7 +19,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Fast cars and rickety bridges as 
                         he grand tour returns</h3>
                   </a>
@@ -55,7 +38,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Harvey Weinstein's senual assault
                         trial set for May</h3>
                   </a>
@@ -74,7 +57,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Fast cars and rickety bridges as 
                         he grand tour returns</h3>
                   </a>
@@ -93,7 +76,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Harvey Weinstein's senual assault
                         trial set for May</h3>
                   </a>
@@ -112,7 +95,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Fast cars and rickety bridges as 
                         he grand tour returns</h3>
                   </a>
@@ -131,7 +114,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Harvey Weinstein's senual assault
                         trial set for May</h3>
                   </a>
@@ -150,7 +133,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Fast cars and rickety bridges as 
                         he grand tour returns</h3>
                   </a>
@@ -169,7 +152,7 @@
                   </ul>
                 </div>
                 <div class="details mt-20">
-                  <a href="blog-single.html">
+                  <a href="#">
                     <h3>Harvey Weinstein's senual assault
                         trial set for May</h3>
                   </a>

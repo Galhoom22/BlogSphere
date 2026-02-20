@@ -1,23 +1,7 @@
 @extends('theme.master')
 @section('title', 'Contact')
 @section('content')
-  <!--================ Hero sm banner start =================-->  
-  <section class="mb-30px">
-    <div class="container">
-      <div class="hero-banner hero-banner--sm">
-        <div class="hero-banner__content">
-          <h1>Contact Us</h1>
-          <nav aria-label="breadcrumb" class="banner-breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Hero sm banner end =================-->  
+@include('theme.partials.hero', ['title' => 'Contact'])
 
   <!-- ================ contact section start ================= -->
   <section class="section-margin--small section-margin">
@@ -28,7 +12,7 @@
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
               <h3>California United States</h3>
-              <p>Santa monica bullevard</p>
+              <p>Santa Monica Boulevard</p>
             </div>
           </div>
           <div class="media contact-info">
@@ -47,7 +31,7 @@
           </div>
         </div>
         <div class="col-md-8 col-lg-9">
-          <form action="#/" class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+          <form class="form-contact contact_form" action="#" method="post" id="contactForm" novalidate="novalidate">
             <div class="row">
               <div class="col-lg-5">
                 <div class="form-group">

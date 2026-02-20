@@ -42,7 +42,7 @@
         </div>
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget mail-chimp">
-            <h6 class="mb-20">Instragram Feed</h6>
+            <h6 class="mb-20">Instagram Feed</h6>
             <ul class="instafeed d-flex flex-wrap">
               <li><img src="{{asset("assets")}}/img/instagram/i1.jpg" alt=""></li>
               <li><img src="{{asset("assets")}}/img/instagram/i2.jpg" alt=""></li>
